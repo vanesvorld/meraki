@@ -1,0 +1,576 @@
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] U;eUu6IwՁvukvwO{~u]Gݻ+{ߥ{myJuۿ>xߵ|s]f[5﫻կ];wkۭUvZ{U\_uݽͫ[tm/|Ku]뷧]{[_~_[kj[kUm][swW;ݭ;^_ߵUׯu~UK]wl{]wO;~{mnӭ_o]j7]޵iuUUU/_m߷UwZ5_߫w۵nvvU^~?lￏo/nLmkw}yYmzUݬv~j?[u]^kUmmիݟ~=]U{O=__]\տ[뵽۪JWUjU-_jUoVU}WUmuwW~u{u	ݿUդm׻jkݯ[UoԭQWUmme+}ۭ[]wwo۵OݛuoU׭پU{mU<{w]}g{m7]iqks{{u+ݫ]oX׿۽+mzwkuiU˥ڻݾۯUKn_lޮ;oukuk_u^s˵_Fk]oy}}}~m}彽[i}kVV]շlWk[׺˷]]WVVt~j߉k[W5׷{Vm}Wi۵׺Uve?jUu}m[ܵW뿿}Z_WۦթmnlʵLO>muԭu[M]ZUG]m߶u{MUvm۷Vn7omjڮݺUuwkV޶kթUWiWymUWܵ`Z+UkcmUUu]ݷW[s߫?]կEu+sîu}}ߚU{~U}u۷wzݙ٫k?mw]극~kwս~m_ww]][u/_[_w; Uzݟ5vzkue[})m_V{vm*^^
+
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART]                                                                 U-Boot 2012.10-00099-g7c856f3 (Mar 19 2015 - 12:00:01)Meraki MX64 Boot Kernel Loader
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] 
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] DEV ID = 0xcf1e
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] PCIE CFG DEV ID = 0x8025
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] OTP offset(0x8): 0x78701c01
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] OTP offset(0x9): 0xfe000018
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] OTP offset(0xa): 0xc01b0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] OTP offset(0xb): 0x0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] OTP offset(0xc): 0x4a00000
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] OTP offset(0xd): 0xfffde030
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] OTP offset(0xe): 0x35d17f
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] OTP offset(0xf): 0x20
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] NSP25 32bit DDR
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] SKU ID = 0x0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] DDR type: DDR3
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] MEMC 0 DDR speed = 800MHz
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] ddr_init2: Calling soc_ddr40_set_shmoo_dram_config
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] ddr_init2: Calling soc_ddr40_phy_calibrate
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C01. Check Power Up Reset_Bar
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C02. Config and Release PLL from reset
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C03. Poll PLL Lock
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C04. Calibrate ZQ (ddr40_phy_calib_zq)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C05. DDR PHY VTT On (Virtual VTT setup) DISABLE all Virtual VTT
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C06. DDR40_PHY_DDR3_MISC
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C07. VDL Calibration
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C07.1
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C07.2
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C07.4
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C07.4.1
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C07.4.4
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] VDL calibration result: 0x30000003 (cal_steps = 0)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C07.4.5
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C07.4.6
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C07.5
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C08. DDR40_PHY_DDR3_MISC : Start DDR40_PHY_RDLY_ODT....
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C09. Start ddr40_phy_autoidle_on (MEM_SYS_PARAM_PHY_AUTO_IDLE) ....
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] C10. Wait for Phy Ready
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] Programming controller register
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] ddr_init2: Calling soc_ddr40_shmoo_ctl
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] Validate Shmoo parameters stored in flash ..... OK
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] Press Ctrl-C to run Shmoo ..... skipped
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] Restoring Shmoo parameters from flash ..... done
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] Running simple memory test ..... OK
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] DDR Tune Completed
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] DRAM:  31.9 MiB
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] WARNING: Caches not enabled
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] NAND:   Micron MT29F8G08ABACA, Found strap type 0x6 strap page 0x2
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] 256 KiB blocks, 4 KiB pages, 27B OOB, 8-bit
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] NAND:   chipsize 1024 MiB
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] *** Warning - bad CRC, using default environment
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] 
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] In:    serial
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] Out:   serial
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] Err:   serial
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] arm_clk=1200MHz, axi_clk=600MHz, apb_clk=300MHz, arm_periph_clk=600MHz
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] Enabling icache and dcache
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] Enabling l2cache
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] 
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] NAND read: device 0 offset 0x500000, size 0x200000
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART]  2097152 bytes read: OK
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] Uncompressing Linux... done, booting the kernel.
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Booting Linux on physical CPU 0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Linux version 3.4.111 (jdizzle@x) (gcc version 4.8.3 (GCC) ) #6 Wed May 4 11:23:30 PDT 2016
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=10c5387d
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Machine: Meraki Wired-Arm-Nsp, model: Meraki wired-arm-nsp
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] bootconsole [earlycon0] enabled
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Memory policy: ECC disabled, Data cache writeback
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] BUG: mapping for 0x18000000 at 0xff000000 out of vmalloc space
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] BUG: mapping for 0x19000000 at 0xff200000 out of vmalloc space
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 260080
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Kernel command line: console=ttyS0,115200n8 ubi.mtd=ubi mem=0x3fff0000 earlyprintk loader=u-boot part=bootkernel2
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Memory: 1023MB = 1023MB total
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Memory: 1033928k/1033928k available, 14584k reserved, 0K highmem
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Virtual kernel memory layout:
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]     vmalloc : 0x80000000 - 0xff000000   (2032 MB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]     lowmem  : 0x40000000 - 0x7fff0000   (1023 MB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]     modules : 0x3f000000 - 0x40000000   (  16 MB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]       .text : 0x40008000 - 0x40310790   (3106 kB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]       .init : 0x40311000 - 0x4051f9b4   (2107 kB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]       .data : 0x40520000 - 0x40546588   ( 154 kB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]        .bss : 0x405465ac - 0x40569e20   ( 143 kB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] SLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] NR_IRQS:292
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Data abort at addr=0x0, fsr=0x1c06 ignored.
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] sched_clock: 32 bits at 100 Hz, resolution 10000000ns, wraps every 4294967286ms
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.010000] Calibrating delay loop... 2393.70 BogoMIPS (lpj=11968512)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.080000] pid_max: default: 32768 minimum: 301
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.080000] Mount-cache hash table entries: 512
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.090000] CPU: Testing write buffer coherency: ok
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.090000] Setting up static identity map for 0x60239b18 - 0x60239b70
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.100000] L310 cache controller enabled
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.100000] l2x0: 16 ways, CACHE_ID 0x410000c8, AUX_CTRL 0x0a150000, Cache size: 524288 B
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.110000] devtmpfs: initialized
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.120000] NET: Registered protocol family 16
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.120000] gpiochip_add: registered GPIOs 0 to 31 on device: GPIOA
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.130000] iproc gpiochip add GPIOA
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.130000] GPIOA:ioaddr ff000060 
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.140000] GPIOA:intr_ioaddr ff000000 dmu_ioaddr ff020000
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.140000] gpiochip_add: registered GPIOs 32 to 35 on device: GPIOB
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.150000] iproc gpiochip add GPIOB
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.150000] GPIOB:ioaddr ff030000 
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.160000] Warning: No reset pin specified in config
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.160000] request_idm_timeout_interrupts: 600 entry
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.170000] idm_timeout_handler: 340, 0 entry
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.170000] idm_timeout_handler: 585 exit
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.170000] request_idm_timeout_interrupts: 696 exit
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.180000] hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.190000] hw-breakpoint: maximum watchpoint size is 4 bytes.
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.200000] bio: create slab <bio-0> at 0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.200000] usbcore: registered new interface driver usbfs
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.210000] usbcore: registered new interface driver hub
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.210000] usbcore: registered new device driver usb
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.220000] i2c-gpio i2c-gpio.6: using pins 5 (SDA) and 4 (SCL)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.220000] Switching to clocksource iproc_gtimer
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.230000] NET: Registered protocol family 2
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.240000] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.250000] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.260000] TCP bind hash table entries: 65536 (order: 6, 262144 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.260000] TCP: Hash tables configured (established 131072 bind 65536)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.270000] TCP: reno registered
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.270000] UDP hash table entries: 512 (order: 1, 8192 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.280000] UDP-Lite hash table entries: 512 (order: 1, 8192 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.290000] NET: Registered protocol family 1
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.550000] PCIE0: LINKSTA reg 0xbe val 0x1001
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.550000] reg[0xac]=0x10, reg[0xae]=0x42, reg[0xb0]=0x8000, reg[0xb4]=0x2c10, reg[0xb6]=0x10, reg[0xb8]=0x5c12, reg[0xba]=0x65, reg[0xbe]=0x1001, reg[0xc6]=0x40, reg[0xca]=0x1, reg[0xd0]=0x1f, reg[0xd2]=0x8, reg[0xdc]=0x2, PCIE0 link=0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.920000] PCIE1: LINKSTA reg 0xbe val 0x1001
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.930000] reg[0xac]=0x10, reg[0xae]=0x42, reg[0xb0]=0x8000, reg[0xb4]=0x2c10, reg[0xb6]=0x10, reg[0xb8]=0x5c12, reg[0xba]=0x65, reg[0xbe]=0x1001, reg[0xc6]=0x40, reg[0xca]=0x1, reg[0xd0]=0x1f, reg[0xd2]=0x8, reg[0xdc]=0x2, PCIE1 link=0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.300000] PCIE2: LINKSTA reg 0xbe val 0x1001
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.300000] reg[0xac]=0x10, reg[0xae]=0x42, reg[0xb0]=0x8000, reg[0xb4]=0x2c10, reg[0xb6]=0x10, reg[0xb8]=0x5c12, reg[0xba]=0x65, reg[0xbe]=0x1001, reg[0xc6]=0x40, reg[0xca]=0x1, reg[0xd0]=0x1f, reg[0xd2]=0x8, reg[0xdc]=0x2, reg[0xde]=0x1, PCIE2 link=0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.430000] pm_init: Initializing Power Management ....
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.440000] msgmni has been set to 2019
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.440000] io scheduler noop registered
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.440000] io scheduler deadline registered
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.450000] io scheduler cfq registered (default)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.450000] iproc_pwmc_probe iobase ff031000 phys:18031000
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.460000] Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.470000] 18000300.uart: ttyS0 at MMIO 0x18000300 (irq = 117) is a 16550A
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.470000] console [ttyS0] enabled, bootconsole disabled
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.470000] console [ttyS0] enabled, bootconsole disabled
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.480000] at24 0-0050: 8192 byte 24c64 EEPROM, writable, 32 bytes/write
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.490000] ONFI param page 0 valid
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.500000] ONFI flash detected
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.500000] NAND device: Manufacturer ID: 0x2c, Chip ID: 0xd3 (Micron MT29F8G08ABACAWP)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.510000] iproc_nand: heuristics exception detected, Micron MT29F8G08ABACA
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.510000] iproc_nand: following bootloader settings
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.520000] iproc_nand: 1024MiB total, 256KiB blocks, 4KiB pages, 27B OOB, 8-bit
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.530000] iproc_nand: user oob per page: 46 bytes (4 steps)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.530000] Bad block table found at page 262080, version 0x01
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.540000] Bad block table found at page 262016, version 0x01
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.550000] Bad block table found at page 262080, version 0x01
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.550000] Bad block table found at page 262016, version 0x01
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.560000] Creating 6 MTD partitions on "nand_iproc.0":
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.560000] 0x000000000000-0x000000200000 : "U-boot"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.570000] 0x000000100000-0x000000400000 : "bootkernel1"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.580000] 0x000000400000-0x000000500000 : "senao_nvram"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.580000] 0x000000500000-0x000000800000 : "bootkernel2"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.590000] 0x000000800000-0x00003ff00000 : "ubi"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.590000] 0x000000000000-0x00003ff00000 : "all"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.600000] iproc_nand: NAND controller driver is loaded
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.600000] UBI: attaching mtd4 to ubi0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.610000] UBI: physical eraseblock size:   262144 bytes (256 KiB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.610000] UBI: logical eraseblock size:    253952 bytes
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.620000] UBI: smallest flash I/O unit:    4096
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.620000] UBI: VID header offset:          4096 (aligned 4096)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    1.630000] UBI: data offset:                8192
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.710000] UBI: max. sequence number:       772333
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.730000] UBI: attached mtd4 to ubi0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.730000] UBI: MTD device name:            "ubi"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.740000] UBI: MTD device size:            1015 MiB
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.740000] UBI: number of good PEBs:        4060
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.750000] UBI: number of bad PEBs:         0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.750000] UBI: number of corrupted PEBs:   0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.750000] UBI: max. allowed volumes:       128
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.760000] UBI: wear-leveling threshold:    4096
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.760000] UBI: number of internal volumes: 1
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.770000] UBI: number of user volumes:     5
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.770000] UBI: available PEBs:             1625
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.780000] UBI: total number of reserved PEBs: 2435
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.780000] UBI: number of PEBs reserved for bad PEB handling: 40
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.790000] UBI: max/mean erase counter: 199/191
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.790000] UBI: image sequence number:  451051978
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.800000] UBI: background thread "ubi_bgt0d" started, PID 243
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.810000] tun: Universal TUN/TAP device driver, 1.6
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.810000] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.820000] bcm5301x_gmac_init_module: NAPI2_POLL mode
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.820000] bcm5301x_gmac_probe enter name:bcmiproc-gmac0; id:0x0; unit:0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.830000] NVRAM: map 0x1e0a0000
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.860000] et0: eth1addr not found, ignore it
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.860000] bcm5301x_gmac_probe enter name:bcmiproc-gmac1; id:0x0; unit:1
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.870000] et1: eth2addr not found, ignore it
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.870000] bcm5301x_gmac_probe enter name:bcmiproc-gmac2; id:0x0; unit:2
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.880000] si_doattach chipid: 0x3f00cf1e
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.890000] et2: base_addr (0x18024000) irq (181)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.890000] etc_gmac_speed default GMAC2 speed: auto
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.900000] etc_attach() mdio_init_time = 5
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.900000] si_doattach: incoming bus is PCI but it's a lie, switching to SI devid:0xcf1c
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.910000] si_doattach chipid: 0x3f00cf1e
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.910000] si_attach socitype(0x3) chip(0xcf1e) chiprev(0x0) chippkg(0x0)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.920000] et2: chipattach: phyaddr(0x1e)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.920000] et2: chipattach: Calling robo attach
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    6.930000] bcm_robo_attach: devid32: 0x53025
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.000000] bcm_robo_enable_switch IPROC OTP is not configured, can not determine skuid
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.000000] bcm_robo_enable_switch Northstar Family chip
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.010000] bcm_robo_enable_switch Checking powered down port (0x0)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.020000] eth0: Broadcom BCM5302x 10/100/1000 Mbps Ethernet Controller 6.30.40 (TOB) (r)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.020000] eth_mac_proc_create: enter
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.030000] 
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.030000] Creating fa bypass proc entry
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.030000] et_ctf_active enabled
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.040000] bcm5301x_gmac_probe enter name:bcmiproc-gmac3; id:0x0; unit:3
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.040000] et3: eth3addr not found, ignore it
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.050000] usbcore: registered new interface driver cdc_eem
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.050000] usbcore: registered new interface driver cdc_subset
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.060000] usbcore: registered new interface driver cdc_ncm
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.070000] usbcore: registered new interface driver cdc_acm
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.070000] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.080000] usbcore: registered new interface driver usbserial
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.090000] usbcore: registered new interface driver usbserial_generic
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.090000] USB Serial support registered for generic
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.100000] usbserial: USB Serial Driver core
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.100000] usbcore: registered new interface driver option
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.110000] USB Serial support registered for GSM modem (1-port)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.110000] usbcore: registered new interface driver qcserial
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.120000] USB Serial support registered for Qualcomm USB modem
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.120000] usbcore: registered new interface driver sierra
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.130000] USB Serial support registered for Sierra USB modem
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.140000] input: gpio-buttons.5 as /devices/gpio-buttons.5/input/input0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.140000] i2c /dev entries driver
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.150000] GENPLL[5] mdiv=12 rate=1500000000
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.160000] GENPLL[5] mdiv=12 rate=1500000000
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.160000] sp805-wdt sp805-wdt: registration successful
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.170000] usbcore: registered new interface driver usbhid
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.170000] usbhid: USB HID core driver
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.180000] meraki-config board-data.2: Meraki config device loaded
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.180000] TCP: cubic registered
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.190000] NET: Registered protocol family 17
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.190000] NET: Registered protocol family 15
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.200000] 8021q: 802.1Q VLAN Support v1.8
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.200000] Registering SWP/SWPB emulation handler
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.210000] devtmpfs: mounted
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.210000] Freeing init memory: 2104K
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.210000] Made it into bootsh: May  4 2016 11:22:26
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.220000] bootsh build T-202721-gf60003da-jdizzle
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.360000] UBIFS: recovery needed
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.470000] UBIFS: recovery completed
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.480000] UBIFS: mounted UBI device 0, volume 3, name "storage"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.480000] UBIFS: file system size:   534061056 bytes (521544 KiB, 509 MiB, 2103 LEBs)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.490000] UBIFS: journal size:       26664960 bytes (26040 KiB, 25 MiB, 105 LEBs)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.500000] UBIFS: media format:       w4/r0 (latest is w4/r0)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.510000] UBIFS: default compressor: lzo
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    7.510000] UBIFS: reserved for root:  4952683 bytes (4836 KiB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] In manufacturing: FALSE
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] In manufacturing: FALSE
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   12.910000] Mapping 32722944 bytes for /dev/mtdblock/part.safe
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   12.950000] Meraki-build is T-201806121734-G1bec6749-rel-switch
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] cksum computed: 0x124e given: 0x124e
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] found valid board data at 0x0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] cksum computed: 0x124e given: 0x124e
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] found valid board data at 0x0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] Using itb config kingpin2g (wired-arm-nsp configuration)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] Description: wired-arm-nsp Kernel
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] Description: wired-arm-nsp Ramdisk
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] Description: wired-arm-nsp Device Tree 2GB
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.890000] UBIFS: un-mount UBI device 0, volume 3
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.900000] Starting new kernel
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.900000] Bye!
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Booting Linux on physical CPU 0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Linux version 3.4.113 (jenkins@atx101.meraki.com) (gcc version 4.8.3 (GCC) ) #3 SMP Wed Jun 13 13:43:14 PDT 2018
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=10c5387d
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Machine: Meraki Wired-Arm-Nsp, model: Meraki MX64
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] bootconsole [earlycon0] enabled
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Memory policy: ECC disabled, Data cache writealloc
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] BUG: mapping for 0x18000000 at 0xff000000 out of vmalloc space
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] BUG: mapping for 0x19000000 at 0xff200000 out of vmalloc space
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] PERCPU: Embedded 7 pages/cpu @41017000 s5824 r8192 d14656 u32768
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 390128
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Kernel command line: console=ttyS0,115200n8 ubi.mtd=ubi earlyprintk console=ttyS0,115200n8 earlyprintks
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Dentry cache hash table entries: 262144 (order: 8, 1048576 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Inode-cache hash table entries: 131072 (order: 7, 524288 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Memory: 1535MB = 1535MB total
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Memory: 1530472k/1530472k available, 42328k reserved, 0K highmem
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Virtual kernel memory layout:
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]     vmalloc : 0xa0000000 - 0xff000000   (1520 MB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]     lowmem  : 0x40000000 - 0x9fff0000   (1535 MB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]     modules : 0x3f000000 - 0x40000000   (  16 MB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]       .text : 0x40008000 - 0x40378740   (3522 kB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]       .init : 0x40379000 - 0x4039c6c0   ( 142 kB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]       .data : 0x4039e000 - 0x403cc6e8   ( 186 kB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000]        .bss : 0x403cc70c - 0x4040ced8   ( 258 kB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] SLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] Hierarchical RCU implementation.
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] NR_IRQS:292
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.000000] sched_clock: 32 bits at 250 Hz, resolution 4000000ns, wraps every 4294967292ms
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.004000] Calibrating delay loop... 2390.01 BogoMIPS (lpj=4780032)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.024000] pid_max: default: 32768 minimum: 301
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.028000] Mount-cache hash table entries: 512
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.032000] CPU: Testing write buffer coherency: ok
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.036000] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.040000] smp_twd: clock not found: -2
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.044000] Calibrating local timer... 599.78MHz.
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.068000] hw perfevents: enabled with ARMv7 Cortex-A9 PMU driver, 7 counters available
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.072000] Setting up static identity map for 0x80291530 - 0x80291588
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.076000] L310 cache controller enabled
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.080000] l2x0: 16 ways, CACHE_ID 0x410000c8, AUX_CTRL 0x0a150000, Cache size: 524288 B
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.088000] CPU1: Booted secondary processor
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.140000] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.140000] Brought up 2 CPUs
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.144000] SMP: Total of 2 processors activated (4780.03 BogoMIPS).
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.148000] devtmpfs: initialized
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.156000] NET: Registered protocol family 16
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.160000] gpiochip_add: registered GPIOs 0 to 31 on device: GPIOA
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.164000] iproc gpiochip add GPIOA
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.168000] GPIOA:ioaddr ff000060 
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.172000] GPIOA:intr_ioaddr ff000000 dmu_ioaddr ff020000
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.176000] gpiochip_add: registered GPIOs 32 to 35 on device: GPIOB
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.180000] iproc gpiochip add GPIOB
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.184000] GPIOB:ioaddr ff030000 
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.188000] request_idm_timeout_interrupts: 600 entry
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.192000] idm_timeout_handler: 340, 0 entry
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.196000] idm_timeout_handler: 585 exit
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.200000] request_idm_timeout_interrupts: 696 exit
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.204000] hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.208000] hw-breakpoint: maximum watchpoint size is 4 bytes.
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.216000] bio: create slab <bio-0> at 0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.220000] usbcore: registered new interface driver usbfs
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.224000] usbcore: registered new interface driver hub
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.228000] usbcore: registered new device driver usb
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.236000] i2c-gpio i2c-gpio.5: using pins 5 (SDA) and 4 (SCL)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.240000] Switching to clocksource iproc_gtimer
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.248000] NET: Registered protocol family 2
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.256000] IP route cache hash table entries: 65536 (order: 6, 262144 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.264000] TCP established hash table entries: 262144 (order: 9, 2097152 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.276000] TCP bind hash table entries: 65536 (order: 7, 524288 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.284000] TCP: Hash tables configured (established 262144 bind 65536)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.288000] TCP: reno registered
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.292000] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.300000] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.304000] NET: Registered protocol family 1
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [    0.312000] Unpacking initramfs...
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   10.564000] Freeing initrd memory: 24220K
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   10.820000] PCIE0: LINKSTA reg 0xbe val 0x1001
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   10.824000] reg[0xac]=0x10, reg[0xae]=0x42, reg[0xb0]=0x8000, reg[0xb4]=0x2c10, reg[0xb6]=0x10, reg[0xb8]=0x5c12, reg[0xba]=0x65, reg[0xbe]=0x1001, reg[0xc6]=0x40, reg[0xca]=0x1, reg[0xd0]=0x1f, reg[0xd2]=0x8, reg[0xdc]=0x1, PCIE0 link=0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.096000] PCIE1: LINKSTA reg 0xbe val 0x1001
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.100000] reg[0xac]=0x10, reg[0xae]=0x42, reg[0xb0]=0x8000, reg[0xb4]=0x2c10, reg[0xb6]=0x10, reg[0xb8]=0x5c12, reg[0xba]=0x65, reg[0xbe]=0x1001, reg[0xc6]=0x40, reg[0xca]=0x1, reg[0xd0]=0x1f, reg[0xd2]=0x8, reg[0xdc]=0x1, PCIE1 link=0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.368000] PCIE2: LINKSTA reg 0xbe val 0x1001
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.372000] reg[0xac]=0x10, reg[0xae]=0x42, reg[0xb0]=0x8000, reg[0xb4]=0x2c10, reg[0xb6]=0x10, reg[0xb8]=0x5c12, reg[0xba]=0x65, reg[0xbe]=0x1001, reg[0xc6]=0x40, reg[0xca]=0x1, reg[0xd0]=0x1f, reg[0xd2]=0x8, reg[0xdc]=0x1, reg[0xde]=0x1, PCIE2 link=0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.392000] pm_init: Initializing Power Management ....
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.484000] msgmni has been set to 3036
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.492000] io scheduler noop registered
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.496000] io scheduler deadline registered
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.500000] io scheduler cfq registered (default)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.508000] iproc_pwmc_probe iobase ff031000 phys:18031000
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.512000] Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.524000] 18000300.uart: ttyS0 at MMIO 0x18000300 (irq = 117) is a 16550A
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.532000] console [ttyS0] enabled, bootconsole disabled
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.532000] console [ttyS0] enabled, bootconsole disabled
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.544000] Trying to register dev faulty etc
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.548000] at24 0-0050: 8192 byte 24c64 EEPROM, writable, 32 bytes/write
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.564000] ONFI param page 0 valid
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.564000] ONFI flash detected
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.568000] NAND device: Manufacturer ID: 0x2c, Chip ID: 0xd3 (Micron MT29F8G08ABACAWP)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.572000] iproc_nand: heuristics exception detected, Micron MT29F8G08ABACA
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.576000] iproc_nand: following bootloader settings
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.580000] iproc_nand: 1024MiB total, 256KiB blocks, 4KiB pages, 27B OOB, 8-bit
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.584000] iproc_nand: user oob per page: 46 bytes (4 steps)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.588000] Bad block table found at page 262080, version 0x01
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.592000] Bad block table found at page 262016, version 0x01
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.596000] Bad block table found at page 262080, version 0x01
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.600000] Bad block table found at page 262016, version 0x01
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.604000] Creating 6 MTD partitions on "nand_iproc.0":
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.608000] 0x000000000000-0x000000200000 : "U-boot"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.616000] 0x000000100000-0x000000400000 : "bootkernel1"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.624000] 0x000000400000-0x000000500000 : "senao_nvram"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.636000] 0x000000500000-0x000000800000 : "bootkernel2"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.640000] 0x000000800000-0x00003ff00000 : "ubi"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.648000] 0x000000000000-0x00003ff00000 : "all"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.660000] iproc_nand: NAND controller driver is loaded
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.668000] UBI: attaching mtd4 to ubi0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.672000] UBI: physical eraseblock size:   262144 bytes (256 KiB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.676000] UBI: logical eraseblock size:    253952 bytes
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.680000] UBI: smallest flash I/O unit:    4096
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.684000] UBI: VID header offset:          4096 (aligned 4096)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   11.688000] UBI: data offset:                8192
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.852000] UBI: max. sequence number:       772335
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.872000] UBI: attached mtd4 to ubi0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.876000] UBI: MTD device name:            "ubi"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.880000] UBI: MTD device size:            1015 MiB
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.884000] UBI: number of good PEBs:        4060
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.888000] UBI: number of bad PEBs:         0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.892000] UBI: number of corrupted PEBs:   0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.896000] UBI: max. allowed volumes:       128
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.900000] UBI: wear-leveling threshold:    4096
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.904000] UBI: number of internal volumes: 1
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.908000] UBI: number of user volumes:     5
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.912000] UBI: available PEBs:             1625
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.916000] UBI: total number of reserved PEBs: 2435
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.920000] UBI: number of PEBs reserved for bad PEB handling: 40
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.924000] UBI: max/mean erase counter: 199/191
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.928000] UBI: image sequence number:  451051978
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.932000] UBI: background thread "ubi_bgt0d" started, PID 385
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.984000] tun: Universal TUN/TAP device driver, 1.6
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.988000] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   16.996000] bcm5301x_gmac_init_module: NAPI2_POLL mode
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.000000] bcm5301x_gmac_probe enter name:bcmiproc-gmac0; id:0x0; unit:0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.008000] NVRAM: map 0x1e0a0000
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.036000] et0: eth1addr not found, ignore it
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.044000] bcm5301x_gmac_probe enter name:bcmiproc-gmac1; id:0x0; unit:1
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.052000] et1: eth2addr not found, ignore it
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.060000] bcm5301x_gmac_probe enter name:bcmiproc-gmac2; id:0x0; unit:2
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.064000] si_doattach chipid: 0x3f00cf1e
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.072000] et2: base_addr (0x18024000) irq (181)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.076000] etc_gmac_speed default GMAC2 speed: auto
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.080000] etc_attach() mdio_init_time = 5
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.084000] si_doattach: incoming bus is PCI but it's a lie, switching to SI devid:0xcf1c
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.092000] si_doattach chipid: 0x3f00cf1e
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.096000] si_attach socitype(0x3) chip(0xcf1e) chiprev(0x0) chippkg(0x0)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.104000] et2: chipattach: phyaddr(0x1e)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.108000] et2: chipattach: Calling robo attach
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.112000] bcm_robo_attach: devid32: 0x53025
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.184000] bcm_robo_enable_switch IPROC OTP is not configured, can not determine skuid
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.192000] bcm_robo_enable_switch Northstar Family chip
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.196000] bcm_robo_enable_switch Checking powered down port (0x0)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.208000] eth0: Broadcom BCM5302x 10/100/1000 Mbps Ethernet Controller 6.30.40 (TOB) (r)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.216000] eth_mac_proc_create: enter
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.220000] 
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.220000] Creating fa bypass proc entry
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.224000] et_ctf_active enabled
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.228000] bcm5301x_gmac_probe enter name:bcmiproc-gmac3; id:0x0; unit:3
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.232000] et3: eth3addr not found, ignore it
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.236000] PPP generic driver version 2.4.2
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.244000] PPP BSD Compression module registered
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.248000] PPP Deflate Compression module registered
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.252000] NET: Registered protocol family 24
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.256000] usbcore: registered new interface driver cdc_ether
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.260000] usbcore: registered new interface driver cdc_eem
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.268000] usbcore: registered new interface driver cdc_subset
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.272000] usbcore: registered new interface driver sierra_net
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.276000] usbcore: registered new interface driver cdc_ncm
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.280000] Initial usb2h clock is: 000003fc
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.284000] Initial usb2h clock now is: 000003fd
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.288000] Initial usb2_reset_state is: 00000001
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.292000] usb2_reset_state is set and now it is: 00000000
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.296000] usbcore: registered new interface driver cdc_acm
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.300000] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.304000] usbcore: registered new interface driver usbserial
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.308000] usbserial: USB Serial Driver core
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.312000] usbcore: registered new interface driver option
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.316000] USB Serial support registered for GSM modem (1-port)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.324000] usbcore: registered new interface driver qcserial
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.332000] USB Serial support registered for Qualcomm USB modem
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.336000] usbcore: registered new interface driver sierra
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.344000] USB Serial support registered for Sierra USB modem
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.348000] input: gpio-buttons.6 as /devices/gpio-buttons.6/input/input0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.360000] i2c /dev entries driver
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.376000] GENPLL[5] mdiv=12 rate=1500000000
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.380000] GENPLL[5] mdiv=12 rate=1500000000
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.384000] sp805-wdt sp805-wdt: registration successful
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.408000] usbcore: registered new interface driver usbhid
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.412000] usbhid: USB HID core driver
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.416000] meraki-config board-data.2: Meraki config device loaded
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.424000] TCP: cubic registered
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.428000] Initializing XFRM netlink socket
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.432000] NET: Registered protocol family 17
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.436000] NET: Registered protocol family 15
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.440000] L2TP core driver, V2.0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.444000] PPPoL2TP kernel driver, V2.0
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.448000] 8021q: 802.1Q VLAN Support v1.8
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.452000] Registering SWP/SWPB emulation handler
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.464000] devtmpfs: mounted
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.468000] Freeing init memory: 140K
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.480000] Made it into bootsh: Jun 13 2018 13:35:37
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.488000] bootsh build T-201806121734-G1bec6749-rel-switch
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.552000] /init: writing to fd 3 failed!: Device or resource busy
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.560000] !!!!! {/init} failed writing /sys/class/gpio/export errno 16 (Device or resource busy) len 1 data: "6"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.712000] UBIFS: mounted UBI device 0, volume 3, name "storage"
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.716000] UBIFS: file system size:   534061056 bytes (521544 KiB, 509 MiB, 2103 LEBs)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.720000] UBIFS: journal size:       26664960 bytes (26040 KiB, 25 MiB, 105 LEBs)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.724000] UBIFS: media format:       w4/r0 (latest is w4/r0)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.728000] UBIFS: default compressor: lzo
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.732000] UBIFS: reserved for root:  4952683 bytes (4836 KiB)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] In manufacturing: FALSE
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] In rma mode: FALSE
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.812000] /init: reading file /sys/class/gpio/gpio6/value: No such file or directory
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] [   17.820000] !!!!! {/init} reading /sys/class/gpio/gpio6/value failed [2]: No such file or directory
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] init started: BusyBox v1.25.1 (2018-06-13 11:14:15 PDT)
+2019-12-29 16:52 [Serial-/dev/cu.SLAB_USBtoUART] WARNING! THIS CONSOLE IS LOGGED! UNAUTHORIZED ACCESS FORBIDDEN!
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] <Meraki> [   18.064000] sysctl: error: 'vm.extfrag_threshold' is an unknown key
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   18.092000] sysctl: The scan_unevictable_pages sysctl/node-interface has been disabled for lack of a legitimate use case.  If you have one, please send an email to linux-mm@kvack.org.
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   18.656000] device eth0 entered promiscuous mode
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   18.660000] Cannot change rx-checksumming
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   18.664000] Cannot change tx-checksumming
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   18.672000] Cannot change scatter-gather
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   18.676000] Cannot change tcp-segmentation-offload
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   18.684000] Cannot change rx-vlan-offload
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   18.692000] Cannot change tx-vlan-offload
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.176000] GENPLL[5] mdiv=12 rate=1500000000
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.180000] sysctl -w vm.panic_on_oom=2
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.188000] vm.panic_on_oom = 2
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.272000] click: starting router thread pid 867 (98f5e600)
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.336000] elts_meraki: module license 'unspecified' taints kernel.
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.540000] Single synchronous check for reset
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.652000] et2 Link Up: 0FD
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.704000] GobiNet: 2013-10-08/NTGR_2.21
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.708000] usbcore: registered new interface driver GobiNet
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.744000] usbcore: registered new interface driver GobiSerial
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.752000] USB Serial support registered for GobiSerial
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.756000] GobiSerial: 2013-10-08/NTGR_2.12:GobiSerial
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.828000] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.836000] bcm-ehci bcm-ehci.0: bcm-ehci
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.840000] bcm-ehci bcm-ehci.0: new USB bus registered, assigned bus number 1
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.844000] bcm-ehci bcm-ehci.0: irq 111, io mem 0xff02a000
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.864000] bcm-ehci bcm-ehci.0: USB 2.0 started, EHCI 1.00
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.868000] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.876000] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.880000] usb usb1: Product: bcm-ehci
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.884000] usb usb1: Manufacturer: Linux 3.4.113 ehci_hcd
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.892000] usb usb1: SerialNumber: bcm-ehci
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.896000] hub 1-0:1.0: USB hub found
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.900000] hub 1-0:1.0: 2 ports detected
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.904000] bcm-ehci bcm-ehci.0: probe done
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.936000] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.940000] bcm-ohci bcm-ohci.0: bcm-ohci
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.944000] bcm-ohci bcm-ohci.0: new USB bus registered, assigned bus number 2
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   19.952000] bcm-ohci bcm-ohci.0: irq 111, io mem 0xff02b000
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.016000] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.020000] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.028000] usb usb2: Product: bcm-ohci
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.032000] usb usb2: Manufacturer: Linux 3.4.113 ohci_hcd
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.036000] usb usb2: SerialNumber: bcm-ohci
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.044000] hub 2-0:1.0: USB hub found
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.048000] hub 2-0:1.0: 2 ports detected
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.052000] bcm-ohci bcm-ohci.0: probe done
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.108000] wl: module license 'Proprietary' taints kernel.
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.332000] 
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.340000] boot 76 build T-201806121734-G1bec6749-rel-switch board wired-arm-nsp mac E0:55:3D:8D:D7:B8
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.352000] /usr/bin/snort-version
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.364000] Module: dummy  .text=0x3f000000 .data=0x3f0003f4 .bss=
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.364000] Module: proclikefs  .text=0x3f004000 .data= .bss=0x3f004b40
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.364000] Module: merakiclick  .text=0x3f009000 .data=0x3f10dbe8 .bss=0x3f10de80
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.364000] Module: elts_meraki  .text=0x3f218000 .data=0x3f55ae80 .bss=0x3f55d798
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.364000] Module: GobiNet  .text=0x3f77a000 .data=0x3f783588 .bss=0x3f7837d8
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.364000] Module: GobiSerial  .text=0x3f78a000 .data=0x3f78ae7c .bss=0x3f78b348
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.364000] Module: bcmmdio  .text=0x3f78f000 .data=0x3f78f370 .bss=0x3f78f5b8
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.364000] Module: ehci_hcd  .text=0x3f793000 .data=0x3f79d664 .bss=0x3f79d8b8
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.364000] Module: ohci_hcd  .text=0x3f7a5000 .data=0x3f7ab104 .bss=0x3f7ab338
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.364000] Module: wl  .text=0x3f7b2000 .data=0x3fb05608 .bss=0x3fb86ad8
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.516000] ramoops: platform device not found, using module parameters
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.588000] phram: phram-oops device: 0x10000 at 0xdfff0000
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.660000] cksum computed: 0x124e given: 0x124e
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.660000] found valid board data at 0x0
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.660000] cksum computed: 0x124e given: 0x124e
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   20.660000] found valid board data at 0x0
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   23.872000] chatter: to_bird :: ToHost: device 'bird' went down
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   23.900000] chatter: to_bird :: ToHost: device 'bird' came up
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   24.120000] chatter: to_pimd_lan :: ToHost: device 'pimd-lan' went down
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   24.144000] chatter: to_pimd_lan :: ToHost: device 'pimd-lan' came up
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   24.420000] chatter: to_pimd_vpn :: ToHost: device 'pimd-vpn' went down
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   24.444000] chatter: to_pimd_vpn :: ToHost: device 'pimd-vpn' came up
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   27.120000] chatter: _to_linux_test_client :: ToHost: device 'test_client' went down
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   27.552000] device vlan1 entered promiscuous mode
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   27.556000] device bird entered promiscuous mode
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   27.700000] device vlan2 entered promiscuous mode
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   27.864000] device vlan3 entered promiscuous mode
+2019-12-29 16:53 [Serial-/dev/cu.SLAB_USBtoUART] [   28.836000] !!!!! {/usr/bin/wired_brain} failed writing /sys/devices/system/cpu/cpu1/online errno 22 (Invalid argument) len 1 data: "1"
